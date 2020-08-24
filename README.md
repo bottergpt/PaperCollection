@@ -19,9 +19,9 @@
 
 [COLD: Towards the Next Generation of Pre-Ranking System (2020)](https://arxiv.org/abs/2007.16122)   ||   [notes](./pre_rank/COLD_Towards_the_Next_Generation_of_Pre-Ranking_System.md)
 
-[Cascade Ranking for Operational E-commerce Search (2017)](pre_rank/Cascade Ranking for Operational E-commerce Search.pdf)  ||  [notes]
+[Cascade Ranking for Operational E-commerce Search (2017)](https://arxiv.org/pdf/1706.02093.pdf)  ||  [notes]
 
-[EENMF- An End-to-End Neural Matching Framework for E-Commerce Sponsored Search (2018)](./pre_rank/EENMF- An End-to-End Neural Matching Framework for E-Commerce Sponsored Search.pdf)  ||  [notes]
+[EENMF- An End-to-End Neural Matching Framework for E-Commerce Sponsored Search (2018)](https://arxiv.org/abs/1812.01190)  ||  [notes]
 
 
 
