@@ -1,4 +1,4 @@
-[FwFM-Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising](FwFM-Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising.pdf)
+[FwFM-Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising](./FwFM-Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising.pdf)
 
 
 
@@ -18,11 +18,13 @@ FFM的参数量巨大一直饱受诟病。Field-weighted Factorization Machines 
 
 FMs/FFMs/FwFMs的对比：
 
-![image-20200916141032448](pics/image-20200916141032448.png)
+<img src="pics/image-20200916141032448.png" alt="image-20200916141032448" style="zoom:66%;" />
 
 参数比较：
 
-![image-20200916141257050](pics/image-20200916141257050.png)
+<img src="pics/image-20200916141257050.png" alt="image-20200916155058653" style="zoom:66%;" />
+
+
 
 由于通常n<<m，FwFM的参数量接近FM，但是远小于FFM。
 
