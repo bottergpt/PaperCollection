@@ -31,7 +31,7 @@ For displaying  mathematical formulas in markdowns properly for GitHub, *MathJax
 
 [FiBiNET-Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction (RecSys 2019)](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.pdf) || [notes](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.md)
 
-[FwFM](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.pdf) || [notes](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.md)
+[FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.pdf) || [notes](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.md)
 
 [AutoInt] AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks (2018 arxiv)
 
