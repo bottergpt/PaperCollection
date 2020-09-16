@@ -28,24 +28,30 @@ FMs/FFMs/FwFMs的对比：
 
 不同模型的公式表达：
 
-LR
+
+
+**1. LR:**
+
+
 $$
 \Phi_{L R}(\boldsymbol{w}, \boldsymbol{x})=w_{0}+\sum_{i=1}^{m} x_{i} w_{i}
 $$
 
-Poly2
+**2. Poly2:**
 $$
 \Phi_{P o l y 2}(w, x)=w_{0}+\sum_{i=1}^{m} x_{i} w_{i}+\sum_{i=1}^{m} \sum_{j=i+1}^{m} x_{i} x_{j} w_{h(i, j)}
 $$
-FM
+**3.FM:**
 $$
 \Phi_{F M s}((\boldsymbol{w}, \boldsymbol{v}), \boldsymbol{x})=w_{0}+\sum_{i=1}^{m} x_{i} w_{i}+\sum_{i=1}^{m} \sum_{j=i+1}^{m} x_{i} x_{j}\left\langle\boldsymbol{v}_{i}, \boldsymbol{v}_{j}\right\rangle
 $$
-FFM
+
+**4.FFM:**
 $$
 \Phi_{F F M s}((\boldsymbol{w}, \boldsymbol{v}), \boldsymbol{x})=w_{0}+\sum_{i=1}^{m} x_{i} w_{i}+\sum_{i=1}^{m} \sum_{j=i+1}^{m} x_{i} x_{j}\left\langle\boldsymbol{v}_{i, F(j)}, \boldsymbol{v}_{j, F(i)}\right\rangle
 $$
-FwFM
+
+**5.FwFM:**
 $$
 \Phi_{F w F M s}((\boldsymbol{w}, \boldsymbol{v}), \boldsymbol{x})=w_{0}+\sum_{i=1}^{m} x_{i} w_{i}+\sum_{i=1}^{m} \sum_{j=i+1}^{m} x_{i} x_{j}\left\langle\boldsymbol{v}_{i}, \boldsymbol{v}_{j}\right\rangle r_{F(i), F(j)}
 $$

@@ -5,6 +5,12 @@
 
 
 
+*MathJax Plugin for Github* is recommendded to display mathematical formulas in markdowns properly for GitHub.
+
+You could download *MathJax Plugin for Github* from [chrome webstore](https://chrome.google.com/webstore/category/extensions)
+
+
+
 ## Match
 
 [Embedding-based Retrieval in Facebook Search (2020)](https://arxiv.org/abs/2006.11632)
@@ -28,6 +34,8 @@
 [FiBiNET] Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction (RecSys 2019)
 
 [AutoInt] AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks (2018 arxiv)
+
+
 
 ## NLP
 
