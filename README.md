@@ -35,6 +35,10 @@ You could download *MathJax Plugin for Github* from [chrome webstore](https://ch
 
 [AutoInt] AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks (2018 arxiv)
 
+[FwFM](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.pdf) || [notes](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.md)
+
+
+
 
 
 
