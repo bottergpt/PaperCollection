@@ -1,4 +1,6 @@
-FiBiNET: Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction
+[FiBiNET: Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction](./FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.pdf)
+
+
 
 
 

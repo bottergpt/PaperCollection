@@ -5,9 +5,7 @@
 
 
 
-*MathJax Plugin for Github* is recommendded to display mathematical formulas in markdowns properly for GitHub.
-
-You could download *MathJax Plugin for Github* from [chrome webstore](https://chrome.google.com/webstore/category/extensions)
+For displaying  mathematical formulas in markdowns properly for GitHub, *MathJax Plugin for Github* is recommendded. You could download *MathJax Plugin for Github* from [chrome webstore](https://chrome.google.com/webstore/category/extensions)
 
 
 
@@ -31,11 +29,11 @@ You could download *MathJax Plugin for Github* from [chrome webstore](https://ch
 
 ## Rank
 
-[FiBiNET] Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction (RecSys 2019)
-
-[AutoInt] AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks (2018 arxiv)
+[FiBiNET-Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction (RecSys 2019)](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.pdf) || [notes](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.md)
 
 [FwFM](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.pdf) || [notes](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.md)
+
+[AutoInt] AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks (2018 arxiv)
 
 
 
