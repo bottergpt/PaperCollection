@@ -21,7 +21,7 @@ You could download *MathJax Plugin for Github* from [chrome webstore](https://ch
 
 ## Pre-Rank
 
-[COLD: Towards the Next Generation of Pre-Ranking System (2020)](https://arxiv.org/abs/2007.16122)   ||   [notes](./pre_rank/COLD_Towards_the_Next_Generation_of_Pre-Ranking_System.md)
+[COLD: Towards the Next Generation of Pre-Ranking System (2020)](https://arxiv.org/abs/2007.16122)   ||   [notes](./pre_rank/COLD-Towards-the-Next-Generation-of-Pre-Ranking-System.md)
 
 [Cascade Ranking for Operational E-commerce Search (2017)](https://arxiv.org/pdf/1706.02093.pdf)  ||  [notes]
 
@@ -34,6 +34,8 @@ You could download *MathJax Plugin for Github* from [chrome webstore](https://ch
 [FiBiNET] Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction (RecSys 2019)
 
 [AutoInt] AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks (2018 arxiv)
+
+
 
 
 
