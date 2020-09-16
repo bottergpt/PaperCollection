@@ -9,13 +9,13 @@ FFM的参数量巨大一直饱受诟病。Field-weighted Factorization Machines 
 ![image-20200916113332407](pics/image-20200916113332407.png)
 
 正是由于不同特征域的组合重要性不一样，由此提出了Field-weighted Factorization Machines(FwFMs)模型，直接对不同域差异化的组合强度建模。特征交叉为：
-$$
-x_{i} x_{j}\left\langle\boldsymbol{v}_{i}, \boldsymbol{v}_{j}\right\rangle r_{F(i), F(j)}
-$$
+
+<img src="pics/image-20200916154309246.png" alt="image-20200916154309246" style="zoom:50%;" />
+
 其中$r_{F(i), F(j)}$是$F(i)$和$F(j)$特征域交叉的权重，来显式得表征不同特征域交叉的重要性是有差异的（FFM可以隐式表达这种差异）。FwFMs完整公式如下：
-$$
-\Phi_{F w F M s}((\boldsymbol{w}, \boldsymbol{v}), \boldsymbol{x})=w_{0}+\sum_{i=1}^{m} x_{i} w_{i}+\sum_{i=1}^{m} \sum_{j=i+1}^{m} x_{i} x_{j}\left\langle\boldsymbol{v}_{i}, \boldsymbol{v}_{j}\right\rangle r_{F(i), F(j)}
-$$
+
+<img src="pics/image-20200916154350707.png" alt="image-20200916154350707" style="zoom:50%;" />
+
 FMs/FFMs/FwFMs的对比：
 
 ![image-20200916141032448](pics/image-20200916141032448.png)
@@ -28,46 +28,29 @@ FMs/FFMs/FwFMs的对比：
 
 不同模型的公式表达：
 
-
-
-**1. LR:**
-
-
-$$
-\Phi_{L R}(\boldsymbol{w}, \boldsymbol{x})=w_{0}+\sum_{i=1}^{m} x_{i} w_{i}
-$$
-
-**2. Poly2:**
-$$
-\Phi_{P o l y 2}(w, x)=w_{0}+\sum_{i=1}^{m} x_{i} w_{i}+\sum_{i=1}^{m} \sum_{j=i+1}^{m} x_{i} x_{j} w_{h(i, j)}
-$$
-**3.FM:**
-$$
-\Phi_{F M s}((\boldsymbol{w}, \boldsymbol{v}), \boldsymbol{x})=w_{0}+\sum_{i=1}^{m} x_{i} w_{i}+\sum_{i=1}^{m} \sum_{j=i+1}^{m} x_{i} x_{j}\left\langle\boldsymbol{v}_{i}, \boldsymbol{v}_{j}\right\rangle
-$$
-
-**4.FFM:**
-$$
-\Phi_{F F M s}((\boldsymbol{w}, \boldsymbol{v}), \boldsymbol{x})=w_{0}+\sum_{i=1}^{m} x_{i} w_{i}+\sum_{i=1}^{m} \sum_{j=i+1}^{m} x_{i} x_{j}\left\langle\boldsymbol{v}_{i, F(j)}, \boldsymbol{v}_{j, F(i)}\right\rangle
-$$
-
-**5.FwFM:**
-$$
-\Phi_{F w F M s}((\boldsymbol{w}, \boldsymbol{v}), \boldsymbol{x})=w_{0}+\sum_{i=1}^{m} x_{i} w_{i}+\sum_{i=1}^{m} \sum_{j=i+1}^{m} x_{i} x_{j}\left\langle\boldsymbol{v}_{i}, \boldsymbol{v}_{j}\right\rangle r_{F(i), F(j)}
-$$
+![image-20200916154225301](pics/image-20200916154225301.png)
 
 
 
 FwFM在线性部分的不同形式：
 
-1. 原始的形式：$\sum_{i=1}^{m} x_{i} w_{i}$
-2. 将特征的embedding加入线性项：$\sum_{i=1}^{m} x_{i}\left\langle\boldsymbol{v}_{i}, \boldsymbol{w}_{i}\right\rangle$
+1. 原始的形式：
+
+    <img src="pics/image-20200916155022625.png" alt="image-20200916155022625" style="zoom:30%;" />
+
+2. 将特征的embedding加入线性项：
+
+<img src="pics/image-20200916154849487.png" alt="image-20200916154849487" style="zoom:30%;" />
 
 此时参数量为mK，m是特征数
 
-3. 如果将参数从feature-wise改成field-wise，同一个特征域共享一个权重系数，则：$\sum_{i=1}^{m} x_{i}\left\langle\boldsymbol{v}_{i}, \boldsymbol{w}_{F(i)}\right\rangle$
+3. 如果将参数从feature-wise改成field-wise，同一个特征域共享一个权重系数，则：
 
-此时参数量为nK，n是特征域的数
+<img src="pics/image-20200916155058653.png" alt="image-20200916155058653" style="zoom:30%;" />
+
+此时参数量为nK，n是特征域的数。
+
+
 
 
 
