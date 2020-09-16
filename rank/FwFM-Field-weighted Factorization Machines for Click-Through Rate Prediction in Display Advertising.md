@@ -10,7 +10,7 @@ FFM的参数量巨大一直饱受诟病。Field-weighted Factorization Machines 
 
 正是由于不同特征域的组合重要性不一样，由此提出了Field-weighted Factorization Machines(FwFMs)模型，直接对不同域差异化的组合强度建模。特征交叉为：
 
-<img src="pics/image-20200916154309246.png" alt="image-20200916154309246" style="zoom:50%;" />
+<img src="pics/image-20200916154309246.png" alt="image-20200916154309246" style="zoom:30%;" />
 
 其中$r_{F(i), F(j)}$是$F(i)$和$F(j)$特征域交叉的权重，来显式得表征不同特征域交叉的重要性是有差异的（FFM可以隐式表达这种差异）。FwFMs完整公式如下：
 
@@ -36,17 +36,17 @@ FwFM在线性部分的不同形式：
 
 1. 原始的形式：
 
-    <img src="pics/image-20200916155022625.png" alt="image-20200916155022625" style="zoom:30%;" />
+    <img src="pics/image-20200916155022625.png" alt="image-20200916155022625" style="zoom:20%;" />
 
 2. 将特征的embedding加入线性项：
 
-<img src="pics/image-20200916154849487.png" alt="image-20200916154849487" style="zoom:30%;" />
+<img src="pics/image-20200916154849487.png" alt="image-20200916154849487" style="zoom:20%;" />
 
 此时参数量为mK，m是特征数
 
 3. 如果将参数从feature-wise改成field-wise，同一个特征域共享一个权重系数，则：
 
-<img src="pics/image-20200916155058653.png" alt="image-20200916155058653" style="zoom:30%;" />
+<img src="pics/image-20200916155058653.png" alt="image-20200916155058653" style="zoom:20%;" />
 
 此时参数量为nK，n是特征域的数。
 
