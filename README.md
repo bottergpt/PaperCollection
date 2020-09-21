@@ -37,6 +37,10 @@ For displaying  mathematical formulas in markdowns properly for GitHub, *MathJax
 
 [DeepFM](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.pdf) || [notes](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.md)
 
+[FLEN-Leveraging-Field-for-Scalable-CTR-Prediction](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.pdf) || [notes](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.md)
+
+
+
 
 
 
