@@ -35,6 +35,10 @@ For displaying  mathematical formulas in markdowns properly for GitHub, *MathJax
 
 [AutoInt] AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks (2018 arxiv)
 
+[DeepFM](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.pdf) || [notes](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.md)
+
+
+
 
 
 
