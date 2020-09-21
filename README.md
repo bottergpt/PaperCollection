@@ -5,7 +5,7 @@
 
 
 
-For displaying  mathematical formulas in markdowns properly for GitHub, *MathJax Plugin for Github* is recommendded. You could download *MathJax Plugin for Github* from [chrome webstore](https://chrome.google.com/webstore/category/extensions)
+*MathJax Plugin for Github* is highly recommendded for properly displaying  mathematical formulas in markdowns for GitHub. You could download *MathJax Plugin for Github* from [chrome webstore](https://chrome.google.com/webstore/category/extensions)
 
 
 
