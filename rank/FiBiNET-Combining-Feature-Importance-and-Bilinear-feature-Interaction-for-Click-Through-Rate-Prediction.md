@@ -42,6 +42,8 @@ DIN: 用户兴趣具有多样性，根据目标ad做attention
 
 ![image-20200909213955093](pics/image-20200909213955093.png)
 
+---
+
 $$
 Inner\ Product: \left\{\left(v_{i} \cdot v_{j}\right) x_{i} x_{j}\right\}(i, j) \in R_{x}
 $$
