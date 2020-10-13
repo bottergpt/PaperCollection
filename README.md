@@ -9,6 +9,14 @@
 
 
 
+## Embedding
+
+[AirbnbEmbedding-Real-time-Personalization-using-Embeddings-for-Search-Ranking-at-Airbnb](./embedding/AirbnbEmbedding-Real-time-Personalization-using-Embeddings-for-Search-Ranking-at-Airbnb.pdf) || [notes](./embedding/AirbnbEmbedding-Real-time-Personalization-using-Embeddings-for-Search-Ranking-at-Airbnb.md)
+
+
+
+
+
 ## Match
 
 [Embedding-based Retrieval in Facebook Search (2020)](https://arxiv.org/abs/2006.11632)
@@ -38,14 +46,6 @@
 [DeepFM](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.pdf) || [notes](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.md)
 
 [FLEN-Leveraging-Field-for-Scalable-CTR-Prediction](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.pdf) || [notes](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.md)
-
-
-
-
-
-
-
-
 
 
 
