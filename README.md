@@ -15,9 +15,9 @@
 
 
 
-
-
 ## Match
+
+[ Youtube-Two-Tower-Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations (2019)](./match/youtube_two_tower-Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.pdf) || [notes](./match/youtube_two_tower-Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.md)
 
 [Embedding-based Retrieval in Facebook Search (2020)](https://arxiv.org/abs/2006.11632)
 
@@ -25,9 +25,11 @@
 
 
 
+
+
 ## Pre-Rank
 
-[COLD: Towards the Next Generation of Pre-Ranking System (2020)](https://arxiv.org/abs/2007.16122)   ||   [notes](./pre_rank/COLD-Towards-the-Next-Generation-of-Pre-Ranking-System.md)
+[COLD: Towards the Next Generation of Pre-Ranking System (2020)](https://arxiv.org/abs/2007.16122)   ||   [notes](./pre_rank/COLD-Towards_the_Next_Generation_of_Pre-Ranking_System.md)
 
 [Cascade Ranking for Operational E-commerce Search (2017)](https://arxiv.org/pdf/1706.02093.pdf)  ||  [notes]
 
