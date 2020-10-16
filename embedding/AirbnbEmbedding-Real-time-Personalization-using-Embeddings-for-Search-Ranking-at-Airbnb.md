@@ -32,6 +32,9 @@ session构建规则：30分钟没行为就切割，停留时间短的id去除，
 
 $\mathbf{v}_{l} $  和 $ \mathbf{v}_{l}^{\prime}$ 分别表示 listing $l$输入和输出的向量表征。
 $|\mathcal{V}|$是词表大小，一般会很大，影响计算效率。所以需要优化，一般可以用层序softmax和负采样，这里以负采样为例。优化后的公式如下：
+
+<p>
+
 $$
 \underset{\theta}{\operatorname{argmax}} \sum_{(l, c) \in \mathcal{D}_{p}} \log \frac{1}{1+e^{-\mathbf{v}_{c}^{\prime} \mathbf{v}_{l}}}+\sum_{(l, c) \in \mathcal{D}_{n}} \log \frac{1}{1+e^{\mathbf{v}_{c}^{\prime} \mathbf{v}_{l}}}
 $$
@@ -40,11 +43,18 @@ $$
 \begin{array}{l}\text { where parameters } \theta \text { to be learned are } \mathbf{v}_{l} \text { and } \mathbf{v}_{c}, l, c \in \mathcal{V} . \text { The } \\ \text { optimization is done via stochastic gradient ascent. }\end{array}
 $$
 
+</p>
+
+
+
 到此为止都是非常常规的skip-gram操作。Airbnb把session分为：booked sessions和exploratory sessions。显而易见，一个以下单结尾，一个只会用户只是看看。语料中对booked sessions过采样了5倍，得到更好的效果。
 
 Airbnb把Booked Listing 作为 Global Context，不仅预测滑窗中的id，也预测下单的id。
 
 所以，对于booked sessions，优化目标变成：
+
+<p>
+
 $$
 \underset{\theta}{\operatorname{argmax}} \sum_{(l, c) \in \mathcal{D}_{p}} \log \frac{1}{1+e^{-\mathbf{v}_{c}^{\prime} \mathbf{v}_{l}}}+\sum_{(l, c) \in \mathcal{D}_{n}} \log \frac{1}{1+e^{\mathbf{v}_{c}^{\prime} \mathbf{v}_{l}}}+\log \frac{1}{1+e^{-\mathbf{v}_{l}^{\prime} \mathbf{v}_{l}}}
 $$
@@ -53,16 +63,18 @@ $$
 \text { where } \mathbf{v}_{l_{b}} \text { is the embedding of the booked listing } l_{b} \text { . }
 $$
 
-
+</p>
 
 然后，对于民宿的浏览和预定，往往都是在同一个地区（去某地旅行，找某地的住宿），所以在负样本的选取上，Airbnb加入了同一个地区的负样本，可以捕捉到同一个区域市场内的民宿差异，目标函数变为：
+
+<p>
 
 <img src="pics/image-20201015152635907.png" alt="image-20201015152635907" style="zoom:50%;" />
 $$
 \mathcal{D}_{m_{n}} \text { sampled from the market of the central listing } l \\
 \text { where parameters } \theta \text { to be learned are } \mathbf{v}_{l} \text { and } \mathbf{v}_{c}, l, c \in \mathcal{V}
 $$
-
+</p>
 
 冷启动：对于OOV，新的民宿，用其邻近区域，同样房型，同样价格带的3个向量做平均。
 
@@ -80,6 +92,8 @@ user_type的计算会基于用户最近一次的下单行为汇总，如果是�
 
 #### 训练过程
 
+<p>
+
 user_types 和 listing_types的embedding再同一个向量空间学习。
 
 $s_{b}=\left(u_{t y p e_{1}} l_{t y p e_{1}}, \ldots, u_{t y p e_{M}} l_{t y p e_{M}}\right) \in \mathcal{S}_{b}$
@@ -87,6 +101,8 @@ $s_{b}=\left(u_{t y p e_{1}} l_{t y p e_{1}}, \ldots, u_{t y p e_{M}} l_{t y p e
 $\mathcal{S}_{b}$是所有的booking session的集合，$\mathcal{s}_{b}$是其中的一个booking session。
 
 $(u_{type}, l_{type})$ tuples ordered in time
+
+</p>
 
 ![image-20201015163858785](pics/image-20201015163858785.png)
 
