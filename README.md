@@ -17,11 +17,15 @@
 
 ## Match
 
-[ Youtube-Two-Tower-Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations (2019)](./match/youtube_two_tower-Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.pdf) || [notes](./match/youtube_two_tower-Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.md)
-
-[Embedding-based Retrieval in Facebook Search (2020)](https://arxiv.org/abs/2006.11632)
+[ Youtube-Two-Tower-Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations (2019)](./match/youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.pdf) || [notes](./match/youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.md)
 
 [Poly-encoders: Transformer Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring (2020)](https://arxiv.org/abs/1905.01969v3)
+
+[Embedding-based-Retrieval-in-Facebook-Search  (2020)](./match/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.pdf) || [notes](./match/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.md)
+
+
+
+[WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System](./match/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.pdf) || [notes](./match/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.md)
 
 
 
@@ -48,6 +52,12 @@
 [DeepFM](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.pdf) || [notes](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.md)
 
 [FLEN-Leveraging-Field-for-Scalable-CTR-Prediction](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.pdf) || [notes](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.md)
+
+
+
+## Multi-Task
+
+[Recommending What Video to Watch Next: A Multitask Ranking System](./multitask/youtube_multitask--Recommending_what_video_to_watch_next-a_multitask_ranking_system-recsys2019.pdf)|| [notes](./multitask/youtube_multitask--Recommending_what_video_to_watch_next-a_multitask_ranking_system-recsys2019.md)
 
 
 
