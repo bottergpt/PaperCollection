@@ -18,6 +18,10 @@ Embedding-based Retrieval in Facebook Search - KDD2020
 
 <img src="pics/image-20201023154648294.png" alt="image-20201023154648294" style="zoom:50%;" />
 
+> In modeling,we proposed unified embedding, which is a two sided model where one side is search request comprising query text, searcher, and context, and the other side is the document.
+
+Unified embedding相比于text embedding可以加入更多的个性化。
+
 - Loss: Pairwise Hinge Loss
 
 <img src="pics/image-20201023151123281.png" alt="image-20201023151123281" style="zoom:50%;" />
@@ -27,8 +31,6 @@ m是阈值，控制query和正负样本的距离差，距离差可以用1-cos相
 <img src="pics/image-20201023162432585.png" alt="image-20201023162432585" style="zoom:50%;" />
 
 所以cos距离可以表示为：$1-cos(E_{Q}-E_{D})$
-
-
 
 同一个用户与正文章的相似度要比同一个用户与负文章的相似度，高于一定的阈值。
 
@@ -103,8 +105,6 @@ NLP背景的同学看以上两个采样公式是不是有点眼熟？没错，�
 
 不过需要特别强调的是，**hard negative并非要替代easy negative，而是easy negative的补充。在数量上，负样本还是以easy negative为主，文章中经验是将比例维持在easy:hard=100:1**。毕竟线上召回时，库里绝大多数的物料是与用户八杆子打不着的easy negative，保证easy negative的数量优势，才能hold住模型的及格线。
 
-
-
 ## Serving
 
 embedding quantization
@@ -113,16 +113,74 @@ embedding quantization
 
 - product quantization
 
+## Hard Mining
+
+#### Hard negative mining (HNM)
+
+很多负样本对模型来说都很容易区分，需要适当加入一些难学的样本。
+
+<b>Online hard negative mining: </b>
+
+这个hard negative负采样过程如果是在线进行，过程为：对于一个batch，假设有$n$个正样本对$\left\{\left(q^{(i)}, d_{+}^{(i)}\right)\right\}_{i=1}^{n}$，对于每个query $q^{(i)}$，可以构建一个相关的documents正样本合集：$\{d^{(1)}_{+},...d^{(j)}_{+},...,d^{(n)}_{+} | j \neq i\}$。然后选择跟这些docs相关性最高的负样本，作为hard negatives。
+
+文章实验，对于一个正样本构造两个hard negatives可以达到最优。
+
+这种方法有个限制是，负采样在batch中进行，无法得到全局的hard samples，所以结果并非最优。
+
+<b>Offline hard negative mining:</b>
+
+(1) generate top K results for each query.
+
+(2) select hard negatives based on hard selection strategy.
+
+(3) retrain embedding model using the newly generated triplets.
+
+(4) the procedure can be iterative.
+
+如果模型仅用hard negatives训练，效果会差于全局随机采样的结果。因为很多正负样本明显区分的样例，模型并没有进行学习，而这部分的比重不小（类似于一个考试中，70%的easy，20%medium，10%hard，仅仅复习了hard和medium拿不到好成绩）。
+
+关于样本的选择：
+
+1. 用最难的负样本效果往往不好，rank101-500位置（意味着没那么hard）负采样训练的模型recall最好。
+2. easy negatives还是很有必要的，样本可以根据难易程度分层组合，easy:hard=100:1比例可以达到最优。毕竟召回的目的是初筛，把一些明显不合理的docs排除。
+3. 迁移学习：transfer learning from ”hard“ model to ”easy“ model
+
+#### Hard positive mining
+
+对于一些没有得到召回的真实正样本，挖掘对应的session log，可以把这部分的样本加入模型训练（类似于bad case加权重）。这部分的hard positives对于提升模型效果也是比较有效的。
+
+#### 总结
+
+> The model trained using random negatives simulates the retrieval data distribution and is optimized for recall at a very large K, but it has poor precision at top K when K is small. On the other hand, the model trained to optimize precision, e.g. models trained using non-click impressions as negatives or offline hard negatives, is good at ranking for smaller set of candidates but failed for retrieval tasks. Thereafter we propose to combine models trained with different levels of hardness by a multi-stage approach, in which the first stage model focuses on recall and the second stage model specializes at differentiating more similar results returned by the first stage model.We shared the same spirit as the cascaded embedding training in 《Hard-Aware Deeply Cascaded Embedding》, which ensembled a set of models trained with different level of hardness in a cascaded manner.
 
 
 
+## Embedding Ensemble 
+
+包括两种：weighted concatenation 和 cascade model，都行之有效
+
+weighted concatenation： 即把不同的embedding加权concat到一起。
+
+query vector: 
+$$
+E_{Q}=\left(\alpha_{1} \frac{V_{Q, 1}}{\left\|V_{Q, 1}\right\|}, \cdots, \alpha_{n} \frac{V_{Q, n}}{\left\|V_{Q, n}\right\|}\right)
+$$
+document vector:
+$$
+E_{D}=\left(\frac{U_{D, 1}}{\left\|U_{D, 1}\right\|}, \cdots, \frac{U_{D, n}}{\left\|U_{D, n}\right\|}\right)
+$$
+
+$$
+\cos \left(E_{Q}, E_{D}\right)=\frac{S_{w}(Q, D)}{\sqrt{\sum_{i=1}^{n} \alpha_{i}^{2}} \cdot \sqrt{n}}
+$$
+
+the weighted ensemble similarity score:
+$$
+S_{w}(Q, D)=\sum_{i=1}^{n} \alpha_{i} \cos \left(V_{Q, i}, U_{D, i}\right)
+$$
 
 
-
-
-
-
-
+cascade model：unified embedding在召回指标上更高，但是没有text embedding精准，尤其是在一些新的text上的表现。所以可以用text embedding做初筛，然后通过unified embedding进行re-rank。
 
 
 

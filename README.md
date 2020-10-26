@@ -23,8 +23,6 @@
 
 [Embedding-based-Retrieval-in-Facebook-Search  (2020)](./match/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.pdf) || [notes](./match/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.md)
 
-
-
 [WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System](./match/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.pdf) || [notes](./match/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.md)
 
 
