@@ -105,6 +105,16 @@ NLP背景的同学看以上两个采样公式是不是有点眼熟？没错，�
 
 
 
+## Serving
+
+embedding quantization
+
+- coarse quantization 
+
+- product quantization
+
+
+
 
 
 
