@@ -11,13 +11,19 @@
 
 ## Embedding
 
-[AirbnbEmbedding-Real-time-Personalization-using-Embeddings-for-Search-Ranking-at-Airbnb](./embedding/AirbnbEmbedding-Real-time-Personalization-using-Embeddings-for-Search-Ranking-at-Airbnb.pdf) || [notes](./embedding/AirbnbEmbedding-Real-time-Personalization-using-Embeddings-for-Search-Ranking-at-Airbnb.md)
+[AirbnbEmbedding-Real-time-Personalization-using-Embeddings-for-Search-Ranking-at-Airbnb](./embedding/AirbnbEmbedding--Real-time_Personalization_using_Embeddings_for_Search_Ranking_at_Airbnb.pdf) || [notes](./embedding/AirbnbEmbedding--Real-time_Personalization_using_Embeddings_for_Search_Ranking_at_Airbnb.md)
+
+
 
 
 
 ## Match
 
-[ Youtube-Two-Tower-Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations (2019)](./match/youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.pdf) || [notes](./match/youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.md)
+[DSSM-CIKM2013](./match/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.pdf) || [notes](./match/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.md)
+
+[YoutubeNet-Recsys2016](./match/) ||[note](./match/)
+
+[ Youtube-Two-Tower-Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations (2019)](./match/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.pdf) || [notes](./match/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.md)
 
 [Poly-encoders: Transformer Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring (2020)](https://arxiv.org/abs/1905.01969v3)
 
