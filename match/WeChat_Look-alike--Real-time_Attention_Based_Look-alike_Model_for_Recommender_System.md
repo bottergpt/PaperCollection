@@ -1,12 +1,6 @@
-Real-time Attention Based Look-alike Model for Recommender System
+Real-time Attention Based Look-alike Model (RALM) for Recommender System
 
-
-
-Real-time Attention Based Lookalike Model(RALM)
-
-RALM is a similarity based look-alike model, which consists of user representation
-
-learning and look-alike learning.
+RALM is a similarity based look-alike model, which consists of user representation learning and look-alike learning.
 
 
 
@@ -24,7 +18,11 @@ seeds-to-user similarity calculation
 
 
 
-​	
+​	look-alike算法可以分成两类：similarity based methods and regression based methods.
+
+![image-20201103155214641](pics/image-20201103155214641.png)
+
+流程：
 
 
 
@@ -32,9 +30,19 @@ seeds-to-user similarity calculation
 
 
 
+---
+
+![image-20201103163530075](pics/image-20201103163530075.png)
 
 
 
+local attention & global attention
+
+<img src="pics/image-20201104155126058.png" alt="image-20201104155126058" style="zoom:50%;" />
+
+
+
+ 
 
 
 
