@@ -127,5 +127,7 @@ $(u_{type}, l_{type})$ tuples ordered in time
 
 [Machine Learning-Powered Search Ranking of Airbnb Experiences](https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789)
 
+[再评Airbnb的经典Embedding论文](https://zhuanlan.zhihu.com/p/162163054)
+
 
 
