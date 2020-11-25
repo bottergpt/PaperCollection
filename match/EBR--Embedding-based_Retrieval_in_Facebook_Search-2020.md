@@ -18,7 +18,7 @@ Embedding-based Retrieval in Facebook Search - KDD2020
 
 <img src="pics/image-20201023154648294.png" alt="image-20201023154648294" style="zoom:50%;" />
 
-> In modeling,we proposed unified embedding, which is a two sided model where one side is search request comprising query text, searcher, and context, and the other side is the document.
+> In modeling, we proposed unified embedding, which is a two sided model where one side is search request comprising query text, searcher, and context, and the other side is the document.
 
 Unified embedding相比于text embedding可以加入更多的个性化。
 
