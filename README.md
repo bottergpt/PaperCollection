@@ -17,17 +17,17 @@
 
 ## Retrieval
 
-[DSSM-CIKM2013](./match/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.pdf) || [Notes](./match/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.md)
+[DSSM-CIKM2013](./retrieval/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.pdf) || [Notes](./retrieval/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.md)
 
-[YoutubeNet-Recsys2016](./match/) ||[Notes](./match/)
+[YoutubeNet-Recsys2016](./retrieval/) ||[Notes](./retrieval/)
 
-[ Youtube-Two-Tower-Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations (2019)](./match/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.pdf) || [Notes](./match/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.md)
+[ Youtube-Two-Tower-Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations (2019)](./retrieval/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.pdf) || [Notes](./retrieval/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.md)
 
 [Poly-encoders: Transformer Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring (2020)](https://arxiv.org/abs/1905.01969v3)
 
-[Embedding-based-Retrieval-in-Facebook-Search  (2020)](./match/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.pdf) || [Notes](./match/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.md)
+[Embedding-based-Retrieval-in-Facebook-Search  (2020)](./retrieval/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.pdf) || [Notes](./retrieval/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.md)
 
-[WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System](./match/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.pdf) || [Notes](./match/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.md)
+[WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System](./retrieval/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.pdf) || [Notes](./retrieval/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.md)
 
 
 
@@ -43,21 +43,26 @@
 
 ## Rank
 
-[FiBiNET-Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction (RecSys 2019)](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.pdf) || [Notes](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.md)
+* [FiBiNET-Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction (RecSys 2019)](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.pdf) || [Notes](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.md)
 
-[FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.pdf) || [Notes](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.md)
+* [FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.pdf) || [Notes](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.md)
 
-[AutoInt] AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks (2018 arxiv)
+* [AutoInt] AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks (2018 arxiv)
 
-[DeepFM](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.pdf) || [Notes](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.md)
+* [DeepFM](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.pdf) || [Notes](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.md)
 
-[FLEN-Leveraging-Field-for-Scalable-CTR-Prediction](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.pdf) || [Notes](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.md)
+* [FLEN--Leveraging-Field-for-Scalable-CTR-Prediction](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.pdf) || [Notes](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.md)
+
+
 
 
 
 ## Multi-Task
 
-[Recommending What Video to Watch Next: A Multitask Ranking System](./multitask/youtube_multitask--Recommending_what_video_to_watch_next-a_multitask_ranking_system-recsys2019.pdf)|| [Notes](./multitask/youtube_multitask--Recommending_what_video_to_watch_next-a_multitask_ranking_system-recsys2019.md)
+* [Recommending What Video to Watch Next: A Multitask Ranking System](./multitask/youtube_multitask--Recommending_what_video_to_watch_next-a_multitask_ranking_system-recsys2019.pdf)|| [Notes](./multitask/youtube_multitask--Recommending_what_video_to_watch_next-a_multitask_ranking_system-recsys2019.md)
+
+* [ESMM--Entire_Space_Multi-Task_Model](./multi-task/ESMM--Entire_Space_Multi-Task_Model--An_Effective_Approach_for_Estimating_Post-Click_Conversion_Rate.pdf) || [Notes](./multi-task/ESMM--Entire_Space_Multi-Task_Model--An_Effective_Approach_for_Estimating_Post-Click_Conversion_Rate.md)
+* [MMoE](./multi-task/MMoE--Modeling_Task_Relationships_in_Multi-task Learning_with_Multi-gate Mixture-of-Experts.pdf) || [Notes](./multi-task/MMoE--Modeling_Task_Relationships_in_Multi-task Learning_with_Multi-gate Mixture-of-Experts.md)
 
 
 
