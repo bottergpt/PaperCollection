@@ -15,11 +15,11 @@
 
 
 
-## Match
+## Retrieval
 
 [DSSM-CIKM2013](./match/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.pdf) || [Notes](./match/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.md)
 
-[YoutubeNet-Recsys2016](./match/) ||[Note](./match/)
+[YoutubeNet-Recsys2016](./match/) ||[Notes](./match/)
 
 [ Youtube-Two-Tower-Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations (2019)](./match/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.pdf) || [Notes](./match/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.md)
 
@@ -65,6 +65,9 @@
 
 [Transformer] Attention is all you need
 
+
+
 ## CV经典
+
 [SENet] Squeeze-and-Excitation Networks (CVPR 2018)
 
