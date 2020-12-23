@@ -11,57 +11,53 @@
 
 ## Embedding
 
-[AirbnbEmbedding-Real-time-Personalization-using-Embeddings-for-Search-Ranking-at-Airbnb](./embedding/AirbnbEmbedding--Real-time_Personalization_using_Embeddings_for_Search_Ranking_at_Airbnb.pdf) || [notes](./embedding/AirbnbEmbedding--Real-time_Personalization_using_Embeddings_for_Search_Ranking_at_Airbnb.md)
-
-
+[AirbnbEmbedding-Real-time-Personalization-using-Embeddings-for-Search-Ranking-at-Airbnb](./embedding/AirbnbEmbedding--Real-time_Personalization_using_Embeddings_for_Search_Ranking_at_Airbnb.pdf) || [Notes](./embedding/AirbnbEmbedding--Real-time_Personalization_using_Embeddings_for_Search_Ranking_at_Airbnb.md)
 
 
 
 ## Match
 
-[DSSM-CIKM2013](./match/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.pdf) || [notes](./match/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.md)
+[DSSM-CIKM2013](./match/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.pdf) || [Notes](./match/DSSM--Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data-CIKM2013.md)
 
-[YoutubeNet-Recsys2016](./match/) ||[note](./match/)
+[YoutubeNet-Recsys2016](./match/) ||[Note](./match/)
 
-[ Youtube-Two-Tower-Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations (2019)](./match/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.pdf) || [notes](./match/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.md)
+[ Youtube-Two-Tower-Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations (2019)](./match/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.pdf) || [Notes](./match/Youtube_two_tower--Sampling-Bias-Corrected_Neural_Modeling_for_Large_Corpus_Item_Recommendations.md)
 
 [Poly-encoders: Transformer Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring (2020)](https://arxiv.org/abs/1905.01969v3)
 
-[Embedding-based-Retrieval-in-Facebook-Search  (2020)](./match/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.pdf) || [notes](./match/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.md)
+[Embedding-based-Retrieval-in-Facebook-Search  (2020)](./match/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.pdf) || [Notes](./match/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.md)
 
-[WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System](./match/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.pdf) || [notes](./match/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.md)
-
-
+[WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System](./match/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.pdf) || [Notes](./match/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.md)
 
 
 
 ## Pre-Rank
 
-[COLD: Towards the Next Generation of Pre-Ranking System (2020)](https://arxiv.org/abs/2007.16122)   ||   [notes](./pre_rank/COLD-Towards_the_Next_Generation_of_Pre-Ranking_System.md)
+[COLD: Towards the Next Generation of Pre-Ranking System (2020)](https://arxiv.org/abs/2007.16122)   ||   [Notes](./pre_rank/COLD-Towards_the_Next_Generation_of_Pre-Ranking_System.md)
 
-[Cascade Ranking for Operational E-commerce Search (2017)](https://arxiv.org/pdf/1706.02093.pdf)  ||  [notes]
+[Cascade Ranking for Operational E-commerce Search (2017)](https://arxiv.org/pdf/1706.02093.pdf)  ||  [Notes]
 
-[EENMF- An End-to-End Neural Matching Framework for E-Commerce Sponsored Search (2018)](https://arxiv.org/abs/1812.01190)  ||  [notes]
+[EENMF- An End-to-End Neural Matching Framework for E-Commerce Sponsored Search (2018)](https://arxiv.org/abs/1812.01190)  ||  [Notes]
 
 
 
 ## Rank
 
-[FiBiNET-Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction (RecSys 2019)](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.pdf) || [notes](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.md)
+[FiBiNET-Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction (RecSys 2019)](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.pdf) || [Notes](./rank/FiBiNET-Combining-Feature-Importance-and-Bilinear-feature-Interaction-for-Click-Through-Rate-Prediction.md)
 
-[FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.pdf) || [notes](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.md)
+[FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.pdf) || [Notes](./rank/FwFM-Field-weighted-Factorization-Machines-for-Click-Through-Rate-Prediction-in-Display-Advertising.md)
 
 [AutoInt] AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks (2018 arxiv)
 
-[DeepFM](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.pdf) || [notes](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.md)
+[DeepFM](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.pdf) || [Notes](./rank/DeepFM-A-Factorization-Machine-based-Neural-Network-for-CTR-Prediction.md)
 
-[FLEN-Leveraging-Field-for-Scalable-CTR-Prediction](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.pdf) || [notes](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.md)
+[FLEN-Leveraging-Field-for-Scalable-CTR-Prediction](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.pdf) || [Notes](./rank/FLEN-Leveraging-Field-for-Scalable-CTR-Prediction.md)
 
 
 
 ## Multi-Task
 
-[Recommending What Video to Watch Next: A Multitask Ranking System](./multitask/youtube_multitask--Recommending_what_video_to_watch_next-a_multitask_ranking_system-recsys2019.pdf)|| [notes](./multitask/youtube_multitask--Recommending_what_video_to_watch_next-a_multitask_ranking_system-recsys2019.md)
+[Recommending What Video to Watch Next: A Multitask Ranking System](./multitask/youtube_multitask--Recommending_what_video_to_watch_next-a_multitask_ranking_system-recsys2019.pdf)|| [Notes](./multitask/youtube_multitask--Recommending_what_video_to_watch_next-a_multitask_ranking_system-recsys2019.md)
 
 
 
