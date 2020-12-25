@@ -50,12 +50,6 @@ AutoFIS: Automatic Feature Interaction Selection in Factorization Models for Cli
 
 
 
-
-
-
-
-
-
 ## Reference
 
 [阿里定向广告最新突破：面向下一代的粗排排序系统COLD](https://zhuanlan.zhihu.com/p/63528599)
