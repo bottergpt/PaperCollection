@@ -24,8 +24,6 @@ FMs/FFMs/FwFMs的对比：
 
 <img src="pics/image-20200916141257050.png" alt="image-20200916155058653" style="zoom:66%;" />
 
-
-
 由于通常n<<m，FwFM的参数量接近FM，但是远小于FFM。
 
 不同模型的公式表达：
@@ -58,7 +56,9 @@ FwFM在线性部分的不同形式：
 
 
 
+美图做了一些实验：深度学习技术在美图个性化推荐的应用实践：
 
+https://mp.weixin.qq.com/s/w8kHpVFMJp9uS-txsRIiWQ
 
 
 
