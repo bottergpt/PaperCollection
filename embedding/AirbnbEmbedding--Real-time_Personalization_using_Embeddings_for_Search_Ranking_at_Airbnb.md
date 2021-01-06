@@ -113,8 +113,6 @@ $(u_{type}, l_{type})$ tuples ordered in time
 
 
 
-
-
 ## Reference
 
 [不一样的论文解读2018 KDD best paper: Embeddings at Airbnb-吴海波-蘑菇街](https://zhuanlan.zhihu.com/p/49537461)
