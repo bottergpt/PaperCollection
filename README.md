@@ -24,9 +24,11 @@
 
 [Poly-encoders: Transformer Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring (2020)](https://arxiv.org/abs/1905.01969v3)
 
-[Embedding-based-Retrieval-in-Facebook-Search  (2020)](./retrieval/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.pdf) 
+[EBR-Embedding-based-Retrieval-in-Facebook-Search  (2020)](./retrieval/EBR--Embedding-based_Retrieval_in_Facebook_Search-2020.pdf) 
 
-[WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System](./retrieval/WeChat_Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.pdf) 
+[WeChat-Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System](./retrieval/WeChat-Look-alike--Real-time_Attention_Based_Look-alike_Model_for_Recommender_System.pdf) 
+
+[MOBIUS--Towards_the_Next_Generation_of_Query-Ad_Matching_in_Baidu's_Sponsored_Search-kdd2019](./retrieval/MOBIUS--Towards_the_Next_Generation_of_Query-Ad_Matching_in_Baidu's_Sponsored_Search-kdd2019.pdf)
 
 
 
