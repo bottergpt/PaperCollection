@@ -1,7 +1,6 @@
 # Paper Collection
 
 
-
 - Paper list
 - Notes [deprecated]
 
