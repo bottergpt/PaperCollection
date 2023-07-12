@@ -1,6 +1,5 @@
 # Paper Collection
 
-
 - Paper list
 - Notes [deprecated, moved to Notion]
 
@@ -17,7 +16,6 @@ Pay attention to the naming style:
 **For Example:** 
 
 `2019__MOBIUS__Towards_the_Next_Generation_of_Query-Ad_Matching_in_Baidu's_Sponsored_Search`
-
 
 
 ## Other Related Repositories
