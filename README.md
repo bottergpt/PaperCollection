@@ -2,7 +2,8 @@
 
 
 - Paper list
-- Notes [deprecated]
+- Notes [deprecated, moved to Notion]
+
 
 *MathJax Plugin for Github* is highly recommendded for properly displaying  mathematical formulas in markdowns for GitHub. You could download *MathJax Plugin for Github* from [chrome webstore](https://chrome.google.com/webstore/category/extensions)
 
